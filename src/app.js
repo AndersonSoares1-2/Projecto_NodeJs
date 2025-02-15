@@ -13,7 +13,7 @@ function buscarCorPeloId(id) {
   return cor;
 }
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Cores em API Rest!");
 });
 
 app.get("/cores", (req, res) => {
